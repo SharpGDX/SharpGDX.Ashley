@@ -65,7 +65,7 @@ public abstract class EntitySystem {
 	}
 
 	/** @return Whether or not the system should be processed. */
-	public bool checkProcessing () {
+	public virtual bool checkProcessing () {
 		return processing;
 	}
 
