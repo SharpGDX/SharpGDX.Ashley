@@ -4,10 +4,20 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+	  <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+	  <Title>SharpGDX</Title>
+	  <Description>C# Port of Java's libGDX Ashley package.</Description>
+	  <Copyright>Copyright 2024 SharpGDX - https://www.sharpgdx.com/</Copyright>
+	  <PackageProjectUrl>https://sharpgdx.com</PackageProjectUrl>
+	  <RepositoryUrl>https://github.com/SharpGDX/SharpGDX.Ashley</RepositoryUrl>
+	  <PackageTags>SharpGDX</PackageTags>
+	  <AssemblyVersion>1.12.1</AssemblyVersion>
+	  <FileVersion>1.12.1</FileVersion>
+	  <Version>1.12.1-alpha.7</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="SharpGDX" Version="1.12.1-alpha.7" />
+    <PackageReference Include="SharpGDX" Version="1.13.0-alpha.1" />
   </ItemGroup>
 
 </Project>

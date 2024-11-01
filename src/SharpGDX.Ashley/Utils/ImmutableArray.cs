@@ -27,7 +27,7 @@ using SharpGDX.Utils;
  */
 public class ImmutableArray<T> : IEnumerable<T> {
 	private readonly Array<T> array;
-	private Array<T>.ArrayIterable iterable;
+	private Array<T>.ArrayIterable<T> iterable;
 
 	public ImmutableArray (Array<T> array) {
 		this.array = array;
@@ -96,7 +96,7 @@ public class ImmutableArray<T> : IEnumerable<T> {
 
 	public IEnumerator<T> GetEnumerator () {
 		if (iterable == null) {
-			iterable = new Array<T>.ArrayIterable(array, false);
+			iterable = new Array<T>.ArrayIterable<T>(array, false);
 		}
 
 		return iterable.GetEnumerator();

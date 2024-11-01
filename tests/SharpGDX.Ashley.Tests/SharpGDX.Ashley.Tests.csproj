@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="SharpGDX.Desktop" Version="1.12.1-alpha.6" />
+    <PackageReference Include="SharpGDX.Desktop" Version="1.13.0-alpha.1" />
   </ItemGroup>
 
   <ItemGroup>
